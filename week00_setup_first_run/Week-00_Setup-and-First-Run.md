@@ -28,6 +28,9 @@ Ek real-life example — **Maggi banana**:
 *"Yeh steps ki list hi ek 'program' hai. Jis language mein likhi hai (Hindi/English) woh 'programming language' hai. Aur jo cook in steps ko follow karta hai, woh 'computer' hai."*
 
 ### 👨‍🏫 Concept 2 — Programming language & Python kya hai?
+
+> **📖 Technical definition — Programming language:** A programming language is a formal, structured set of rules and vocabulary used to write instructions that a computer can execute. **Python** is a high-level, general-purpose programming language known for its readable, English-like syntax.
+
 - **Programming language** = ek aisi language jo human aur computer dono samajh sakein.
 - **Python** = aisi hi ek language hai. Yeh famous isliye hai kyunki yeh almost English jaisi padhi jaati hai.
 
@@ -43,9 +46,15 @@ else:
 *"Dekho — agar aapne kabhi code nahi likha, tab bhi aap ise PADH sakte ho: 'if marks greater-than-equal 33, toh print Pass, else print Fail.' Isiliye hum Python choose karte hain, especially AI ke liye."*
 
 ### 👨‍🏫 Concept 3 — 'Interpreter' kya hota hai?
+
+> **📖 Technical definition — Interpreter:** An interpreter is a program that reads source code and executes it directly, translating and running it line by line, without first compiling the whole program into a separate machine-code file.
+
 *"Aap Python English-jaise words mein likhte ho. Par computer ka brain (CPU) sirf 0 aur 1 samajhta hai. Toh ek translator chahiye. Us translator ko bolte hain **Python interpreter**. Hum ise Class 3 par install karenge. Yeh aapke Python ko line-by-line padhta hai aur computer ko batata hai kya karna hai."*
 
 ### 👨‍🏫 Concept 4 — Hamari destination: Agentic AI Engineer
+
+> **📖 Technical definition — AI agent:** An AI agent is a software system that uses a language model to reason about a goal, decides which actions or tools to invoke, executes them, observes the results, and repeats this loop until the task is complete.
+
 *"Aap sabne ChatGPT use kiya hoga. Woh questions ke answer deta hai. Par woh khud se aapka train ticket book nahi kar sakta, na aapki file padh sakta hai, na email bhej sakta hai. Ek **AI agent** yeh sab kar sakta hai. Agent ek aisa AI hai jo:*
 1. **Think** karta hai — samajhta hai aap kya chahte ho.
 2. **Tools use** karta hai — real functions call karta hai (search, calculator, email).
@@ -215,6 +224,9 @@ python --version
 Folders ke beech move karna aur terminal se Python file run karna.
 
 ### 👨‍🏫 Concept — files, folders & "current location"
+
+> **📖 Technical definition — Terminal and current working directory:** A terminal is a text-based interface for sending typed commands to the operating system. The current working directory is the folder that the terminal is currently operating in; relative paths and commands are resolved from this location.
+
 *"Aapke computer mein folders (jinhe 'directories' bhi bolte hain) hote hain, folder ke andar folder. Terminal hamesha ek time par EK folder ke andar 'khada' hota hai. Ise bolte hain 'current working directory'. Soch lo jaise ek building mein aap hamesha ek room mein khade ho. Kuch bhi karne ke liye, pehle sahi room mein chalna padta hai."*
 
 ### 👨‍🏫 Aaj ke 3 commands
@@ -291,6 +303,9 @@ cd ..
 REPL vs `.py` file samajhna, aur `print()` run karna.
 
 ### 👨‍🏫 Way 1 — REPL (instant testing)
+
+> **📖 Technical definition — REPL:** A REPL (Read–Eval–Print Loop) is an interactive environment that reads a single expression or statement, evaluates it, prints the result, and loops to accept the next input, giving immediate feedback.
+
 *"Terminal mein akela `python` type karo. `>>>` dikhega. Yeh **REPL** hai — yeh code ko turant chalata hai, ek line at a time. Quick experiments ke liye best."*
 
 ```python
@@ -303,6 +318,9 @@ Hello, World!
 *"R-E-P-L = Read, Evaluate, Print, Loop. Aapki line ko Read karta hai, Evaluate (run) karta hai, result Print karta hai, aur agli line ke liye Loop karta hai. Nikalne ke liye `exit()` type karo."*
 
 ### 👨‍🏫 Way 2 — `.py` file (real programs)
+
+> **📖 Technical definition — Python script (`.py` file):** A `.py` file is a plain-text file containing Python source code that is saved on disk and can be executed as a complete program by the Python interpreter.
+
 *"REPL band karte hi sab bhool jaata hai. Real programs ke liye hum code ko ek file mein save karte hain jiska end `.py` se hota hai."*
 
 **Chalo karke dekhte hain:**
@@ -326,6 +344,9 @@ python hello.py
 *"Output aa gaya! Aapne abhi ek real program likha aur run kiya. Ek minute ruko — aap AB programmer ho!"*
 
 ### 👨‍🏫 `print()` ko line-by-line samajhte hain
+
+> **📖 Technical definition — `print()` function:** `print()` is a built-in function that writes a text representation of the values passed to it to the standard output (the screen), followed by a newline.
+
 ```python
 print("Hello, World!")
 ```
@@ -371,6 +392,9 @@ print("Favourite subject: Maths")
 `.py` aur `.ipynb` ka farak samajhna, aur Cursor mein apna pehla notebook banakar chalana.
 
 ### 👨‍🏫 Concept — Notebook (.ipynb) kya hai? (easy language)
+
+> **📖 Technical definition — Jupyter Notebook (`.ipynb`):** A Jupyter Notebook is an interactive document made of runnable code cells and text (markdown) cells. Each code cell can be executed independently, and its output is displayed directly beneath it.
+
 *"Ek `.py` file pura program ek saath, upar se neeche chalta hai. Ek **notebook** alag hai: aap code ko chhote-chhote dibbon (**cells**) mein todte ho, aur har cell ko alag se chala kar uska output turant uske neeche dekhte ho. Beech mein aap **notes (text)** bhi likh sakte ho. Isliye yeh seekhne, experiments, aur AI/data ke kaam ke liye perfect hai."*
 
 | `.py` file | `.ipynb` notebook |
@@ -394,6 +418,9 @@ print("Favourite subject: Maths")
 
 ### 👨‍🏫 Step 3 — Kernel choose karo aur code chalao
 *"Notebook ko chalane ke liye ek Python 'engine' chahiye — use **kernel** bolte hain."*
+
+> **📖 Technical definition — Kernel:** A kernel is the background process that runs the code from a notebook's cells and keeps the state (variables, imports) alive between cell executions.
+
 1. Upar-right **"Select Kernel"** par click karo → apna **Python 3.15** choose karo.
 2. Agar Cursor `ipykernel` install karne ko kahe → **Install** dabao (yeh notebook chalane wala chhota package hai).
 3. Pehle cell mein yeh likho:
@@ -523,6 +550,9 @@ print("====================")
 `uv` install karna, ek project banana, aur usme pehla package add karna.
 
 ### 👨‍🏫 Concept — virtual environment kya hai? (easy language)
+
+> **📖 Technical definition — Virtual environment:** A virtual environment is an isolated, project-specific directory that holds its own Python interpreter and installed packages, so that dependencies of one project do not conflict with those of another. **`uv`** is a fast tool that creates and manages these environments and packages.
+
 *"Socho aapke paas 2 projects hain. Project A ko ek package ka purana version chahiye, Project B ko naya. Agar dono ek hi jagah install ho, toh ladai ho jaayegi! Solution: har project ko apna alag chhota 'package ka dabba' do. Is dabbe ko bolte hain **virtual environment** (short mein `venv`). `uv` yeh dabba aapke liye automatically banata aur manage karta hai."*
 
 | Tool | Yeh kya hai | Hum kyun use karte hain |
@@ -601,6 +631,9 @@ uv run hello.py
 Git install karna, apni identity set karna, aur pehla 'save point' (commit) banana.
 
 ### 👨‍🏫 Concept — Git kya hai? (easy language)
+
+> **📖 Technical definition — Git:** Git is a distributed version-control system that records snapshots (commits) of your project's files over time, letting you track changes, revert to earlier states, and collaborate with others.
+
 - **Git** = *version control*. Yeh aapke code ke snapshots ("commits") leta hai, taaki aap galti undo kar sako, dekho kya badla, aur kabhi kaam na kho. Soch lo jaise game ke **"checkpoints"** — par poore project ke liye.
 - **`.gitignore`** = ek chhoti text file jisme un files ke naam hote hain jinhe Git **ignore** kare (kabhi save/upload na kare) — jaise secret keys waali files.
 
@@ -664,6 +697,9 @@ git commit -m "first commit"   # 4. ek snapshot save karo, ek message ke saath
 GitHub account banana, GitHub Desktop install karna, aur apna project online (push) karna — **buttons se (GitHub Desktop)** aur **command line se (`git push`)**, dono tareeke.
 
 ### 👨‍🏫 Concept — GitHub kya hai?
+
+> **📖 Technical definition — GitHub:** GitHub is a cloud-based hosting service for Git repositories. It stores your code online, backs up your commit history, and provides tools for sharing, collaboration, and showcasing projects.
+
 - **GitHub** = ek *website* jo aapke Git projects online store karti hai. Yahin recruiters dekhte hain — aapka GitHub aapka **portfolio** hai. (Is course ke saare projects yahin push honge.)
 - **GitHub Desktop** = ek point-and-click app jisse aap commit aur push **buttons** se kar sakte ho (commands yaad rakhne ki zaroorat nahi).
 
@@ -741,4 +777,4 @@ git push -u origin main                                      # 3. apne commits o
 - *Git se code ke save points banaye (Class 9)*
 - *GitHub par apna code push kiya — GitHub Desktop aur `git push` dono se — online portfolio banaya (Class 10)*
 
-*"Yaad rakho — aapke paas ab wahi setup hai jo ek asli AI engineer ke laptop par hota hai: Python, Cursor, uv, Git aur GitHub. Yeh ek bahut bada milestone hai. Next week se asli mazaa shuru — hum computer ko variables se cheezein YAAD karna sikhayenge. Shabaash, Monday ko milte hain!"*
+*"Yaad rakho — aapke paas ab wahi setup hai jo ek asli AI engineer ke laptop par hota hai: Python, Cursor, uv, Git aur GitHub. Yeh ek bahut bada milestone hai. Next week se asli mazaa shuru — hum computer ko variables se cheezein YAAD karna sikhayenge. Shabaash, agli class mein milte hain!"*
