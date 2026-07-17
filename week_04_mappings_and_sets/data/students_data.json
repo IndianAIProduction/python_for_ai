@@ -1,0 +1,26 @@
+{
+                    "ram": {
+                                "bio": {"sem1": 34, "sem2": 45},
+                                "chem": {"sem1": 69, "sem2": 78},
+                                "phy": {"sem1": 67, "sem2": 79},
+                                "math": {"sem1": 80, "sem2": 89}
+                            },
+                    "sham": {
+                                "bio": {"sem1": 34, "sem2": 45},
+                                "chem": {"sem1": 69, "sem2": 78},
+                                "phy": {"sem1": 67, "sem2": 79},
+                                "math": {"sem1": 80, "sem2": 89}
+                            },
+                    "rohan": {
+                                "bio": {"sem1": 34, "sem2": 45},
+                                "chem": {"sem1": 69, "sem2": 78},
+                                "phy": {"sem1": 67, "sem2": 79},
+                                "math": {"sem1": 80, "sem2": 89}
+                            },
+                    "khushi": {
+                                "bio": {"sem1": 34, "sem2": 45},
+                                "chem": {"sem1": 69, "sem2": 78},
+                                "phy": {"sem1": 67, "sem2": 79},
+                                "math": {"sem1": 80, "sem2": 89}
+                            }
+                }
