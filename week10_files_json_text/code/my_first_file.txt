@@ -1,0 +1,8 @@
+Hello, You are my first file.
+This is second line.
+You are leatning Python with Indian AI Prodeuction.This test append by append mode
+
+This test append by append mode
+This test append by append mode
+This test append by append mode
+This test append by append mode
